@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="es-CO">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <meta charset="UTF-8" />
@@ -9,28 +9,38 @@
     <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/cabecera.css" rel="stylesheet"/>
-    <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
-    <link href="./assets/css/menu/menu-link.css" rel="stylesheet"/>
-    <link href="./assets/css/menu/menu-lista.css" rel="stylesheet"/>
+    <link href="assets/css/menu/menu-tem.css" rel="stylesheet" />
+    <link href="assets/css/menu/menu-link.css" rel="stylesheet"/>
+    <link href="assets/css/menu/menu-lista.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/banner/banner-imagen.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-descripcion.css">
 
 
 </head>
 <body>
-<header class="cabecera">
-    <img class="logo" src="./assets/img/logo.jpg" alt="">
-    <nav class="menu">
-        <ul class="menu-lista">
-            <li class="menu-item"><a class="menu-link activo"  href="#">Inicio</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">Recetas</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">Quienes Somos</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <section>
-        <img src="" alt="">
+    <header class="cabecera">
+        <img class="logo" src="./assets/img/logo.jpg" alt="">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link activo"  href="#">Inicio</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Recetas</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Quienes Somos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <img class="banner__imagen" src="./assets/img/banner.jpg" alt="banner">
+        <h2 class="banner__titulo">Reaproveche mejor los Alimentos</h2>
     </section>
-
-</header>
+    <section class="sobre">
+        <h2 class="sobre__titulo">Recetar para Economizar ganar Salud</h2>
+        <p class="sobre__descripcion">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad.</p>
+    </section>
 
 </body>
 </html>
